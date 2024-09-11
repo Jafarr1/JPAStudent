@@ -66,4 +66,5 @@ public class StudentRestController {
     public List<Student> getallstudentsbyname(@PathVariable String name) {
         return studentRepository.findAllByName(name);
     }
+
 }
